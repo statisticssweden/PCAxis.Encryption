@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/statisticssweden/PCAxis.Encryption.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>PX</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
