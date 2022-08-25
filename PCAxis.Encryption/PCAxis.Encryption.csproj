@@ -3,7 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-    <Version>1.0.0</Version>
+    <PackageId>PCAxis.Encryption</PackageId>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <MinVerDefaultPreReleasePhase>beta</MinVerDefaultPreReleasePhase>
+    <MinVerSkip Condition="'$(Configuration)' == 'Debug'">true</MinVerSkip>    
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <Description>Handles encrypting/decrypting connection elements in SqlDb.config files</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/statisticssweden/PCAxis.Encryption</PackageProjectUrl>
